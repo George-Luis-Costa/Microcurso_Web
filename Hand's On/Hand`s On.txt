@@ -1,9 +1,14 @@
 	Instruções para montar uma página simples em HTML
 
 - Dentro da tag <head> coloque o titulo como "MusicDot"
+---------------------------------------------------------------
 
-- Na tag <Body> coloque as seguintes informações:
-Um cabeçalho <h1> com conteúdo: "Bem-vindo à MusicDot, seu portal de cursos de música online."
+- Na tag <Body> insira as seguintes informações:
+
+* Coloque uma logo da MusicDot que está na pasta img, exemplo:
+ <img src="img/logo.svg" alt="MusicDot">
+
+* Um cabeçalho <h1> com conteúdo: "Bem-vindo à MusicDot, seu portal de cursos de música online."
 
 	Abra uma lista desordenada com a tag: <ul>
 *
@@ -35,4 +40,4 @@ Crie uma tag rodapé "<footer>" e insira, dentro desta tag, um paragrafo <p> com
 Para finalizar, link um arquivo css externo no html, dentro de <head>:
 <link rel="stylesheet" href="caminho">
 
-Isso dará um estilo na página!
+Adicionando o arquivo ".css", dará um estilo à página!
